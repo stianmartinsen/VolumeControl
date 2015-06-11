@@ -13,6 +13,13 @@
 		98D454DA1B28BF1000708E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D454D81B28BF1000708E37 /* Main.storyboard */; };
 		98D454E61B28BF1000708E37 /* VolumeControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D454E51B28BF1000708E37 /* VolumeControlTests.swift */; };
 		98EB43281B29EC0300B42E8C /* PioneerApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB43271B29EC0300B42E8C /* PioneerApi.swift */; };
+		98EB43341B2A174600B42E8C /* icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EB432D1B2A174600B42E8C /* icon1024.png */; };
+		98EB43351B2A174600B42E8C /* icon64.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EB432E1B2A174600B42E8C /* icon64.png */; };
+		98EB43361B2A174600B42E8C /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EB432F1B2A174600B42E8C /* icon128.png */; };
+		98EB43371B2A174600B42E8C /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EB43301B2A174600B42E8C /* icon16.png */; };
+		98EB43381B2A174600B42E8C /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EB43311B2A174600B42E8C /* icon32.png */; };
+		98EB43391B2A174600B42E8C /* icon256.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EB43321B2A174600B42E8C /* icon256.png */; };
+		98EB433A1B2A174600B42E8C /* icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EB43331B2A174600B42E8C /* icon512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		98D454E41B28BF1000708E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98D454E51B28BF1000708E37 /* VolumeControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlTests.swift; sourceTree = "<group>"; };
 		98EB43271B29EC0300B42E8C /* PioneerApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PioneerApi.swift; sourceTree = "<group>"; };
+		98EB432D1B2A174600B42E8C /* icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024.png; sourceTree = "<group>"; };
+		98EB432E1B2A174600B42E8C /* icon64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon64.png; sourceTree = "<group>"; };
+		98EB432F1B2A174600B42E8C /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon128.png; sourceTree = "<group>"; };
+		98EB43301B2A174600B42E8C /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon16.png; sourceTree = "<group>"; };
+		98EB43311B2A174600B42E8C /* icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon32.png; sourceTree = "<group>"; };
+		98EB43321B2A174600B42E8C /* icon256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon256.png; sourceTree = "<group>"; };
+		98EB43331B2A174600B42E8C /* icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon512.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				98D454D11B28BF0F00708E37 /* Info.plist */,
+				98EB432D1B2A174600B42E8C /* icon1024.png */,
+				98EB432E1B2A174600B42E8C /* icon64.png */,
+				98EB432F1B2A174600B42E8C /* icon128.png */,
+				98EB43301B2A174600B42E8C /* icon16.png */,
+				98EB43311B2A174600B42E8C /* icon32.png */,
+				98EB43321B2A174600B42E8C /* icon256.png */,
+				98EB43331B2A174600B42E8C /* icon512.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,7 +213,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98EB43351B2A174600B42E8C /* icon64.png in Resources */,
+				98EB43371B2A174600B42E8C /* icon16.png in Resources */,
+				98EB43381B2A174600B42E8C /* icon32.png in Resources */,
 				98D454D71B28BF0F00708E37 /* Images.xcassets in Resources */,
+				98EB43391B2A174600B42E8C /* icon256.png in Resources */,
+				98EB433A1B2A174600B42E8C /* icon512.png in Resources */,
+				98EB43341B2A174600B42E8C /* icon1024.png in Resources */,
+				98EB43361B2A174600B42E8C /* icon128.png in Resources */,
 				98D454DA1B28BF1000708E37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

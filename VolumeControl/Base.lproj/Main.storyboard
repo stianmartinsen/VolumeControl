@@ -675,7 +675,7 @@
                             <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jWh-MD-fxL">
                                 <rect key="frame" x="47" y="213" width="39" height="38"/>
                                 <buttonCell key="cell" type="round" bezelStyle="circular" imagePosition="above" alignment="left" borderStyle="border" imageScaling="proportionallyDown" id="yxF-td-emn">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                                     <font key="font" metaFont="label"/>
                                 </buttonCell>
                                 <connections>

@@ -30,6 +30,9 @@ class ViewController: NSViewController {
         
         // Prevent resizing the window
         window.styleMask = NSClosableWindowMask | NSTitledWindowMask | NSMiniaturizableWindowMask
+        
+        // Set window title
+        window.title = ""
     }
 
     override var representedObject: AnyObject? {
