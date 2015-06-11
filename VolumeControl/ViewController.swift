@@ -9,6 +9,7 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    let pioneerApi = PioneerApi()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,12 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func buttonEvent(sender: NSButton) {
+        pioneerApi.toggleMute()
+    }
+    
+    @IBAction func volumeSliderEvent(sender: NSSlider) {
+        pioneerApi.setVolume(Int(sender.doubleValue))
+    }
 }
 

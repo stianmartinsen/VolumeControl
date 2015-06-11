@@ -12,6 +12,7 @@
 		98D454D71B28BF0F00708E37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D454D61B28BF0F00708E37 /* Images.xcassets */; };
 		98D454DA1B28BF1000708E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D454D81B28BF1000708E37 /* Main.storyboard */; };
 		98D454E61B28BF1000708E37 /* VolumeControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D454E51B28BF1000708E37 /* VolumeControlTests.swift */; };
+		98EB43281B29EC0300B42E8C /* PioneerApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB43271B29EC0300B42E8C /* PioneerApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		98D454DF1B28BF1000708E37 /* VolumeControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D454E41B28BF1000708E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98D454E51B28BF1000708E37 /* VolumeControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlTests.swift; sourceTree = "<group>"; };
+		98EB43271B29EC0300B42E8C /* PioneerApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PioneerApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				98D454D61B28BF0F00708E37 /* Images.xcassets */,
 				98D454D81B28BF1000708E37 /* Main.storyboard */,
 				98D454D01B28BF0F00708E37 /* Supporting Files */,
+				98EB43271B29EC0300B42E8C /* PioneerApi.swift */,
 			);
 			path = VolumeControl;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				98D454D51B28BF0F00708E37 /* ViewController.swift in Sources */,
 				98D454D31B28BF0F00708E37 /* AppDelegate.swift in Sources */,
+				98EB43281B29EC0300B42E8C /* PioneerApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,7 @@
 				98D454EB1B28BF1000708E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98D454EC1B28BF1000708E37 /* Build configuration list for PBXNativeTarget "VolumeControlTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				98D454EE1B28BF1000708E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

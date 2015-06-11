@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3EA04B2E-612E-42ED-B825-747B7E16C7E0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VolumeControl</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4666E6FF86E2F26EA5CC539A1C4E8FB41F5E2D6C</key>
+		<string>github.com:stianmartinsen/VolumeControl.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VolumeControl.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4666E6FF86E2F26EA5CC539A1C4E8FB41F5E2D6C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:stianmartinsen/VolumeControl.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4666E6FF86E2F26EA5CC539A1C4E8FB41F5E2D6C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4666E6FF86E2F26EA5CC539A1C4E8FB41F5E2D6C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VolumeControl</string>
+		</dict>
+	</array>
+</dict>
+</plist>
