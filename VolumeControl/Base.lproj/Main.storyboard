@@ -691,6 +691,9 @@
                             </slider>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="view" destination="m2S-Jp-Qdl" id="lxG-Gw-Fcw"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

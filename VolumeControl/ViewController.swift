@@ -13,8 +13,23 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear() {
+        super.viewDidAppear()
+        
+        var window = self.view.window!
+        
+        // Make titlebar transparent
+        window.titlebarAppearsTransparent  = true
+        
+        // Make it possible to move the window by grabbing the background
+        window.movableByWindowBackground  = true
+        
+        // Prevent resizing the window
+        window.styleMask = NSClosableWindowMask | NSTitledWindowMask | NSMiniaturizableWindowMask
     }
 
     override var representedObject: AnyObject? {
